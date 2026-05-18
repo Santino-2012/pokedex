@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex — 1025 Pokémons</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="top">
+        <h1>Pokédex</h1>
+        <div class="controls">
+            <input id="search" type="search" placeholder="Buscar por nome ou número" />
+            <label class="toggle"><input id="megaToggle" type="checkbox" checked /> Mostrar Megas</label>
+            <button id="loadMore">Carregar mais</button>
+            <button id="loadAll">Carregar todos</button>
+        </div>
+        <div id="status" class="status">0 / 1025 carregados</div>
+    </header>
+
+    <main>
+        <section id="pokedex" class="pokedex"></section>
+    </main>
+
+    <footer class="footer">Dados via <a href="https://pokeapi.co/" target="_blank" rel="noreferrer">PokeAPI</a></footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
